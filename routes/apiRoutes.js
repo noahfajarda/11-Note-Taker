@@ -76,5 +76,28 @@ router.post("/", (req, res) => {
 });
 
 // BONUS - BE ABLE TO DELETE A NOTE AS WELL...
+router.delete("/:id", (req, res) => {
+    var currentNoteID = req.params.id;
+
+    readFromFile("./db/db.json").then((data) => {
+        // data is an array of objects
+        data = JSON.parse(data);
+        console.log(data);
+        const index = data.map((object) => object.id).indexOf(currentNoteID);
+        // this method is giving errors probably
+        data.splice(index, 1);
+
+        // data now has 1 less item from the deletion
+
+        // Overwrite db.json with new array of data & re-render the items to the UI
+        writeToFile("./db/db.json", data);
+        // this method is also giving errors
+        readFromFile("./db/db.json").then((data) => res.json(JSON.parse(data)));
+
+        // res.json(JSON.parse(data));
+    });
+
+    // const index =
+});
 
 module.exports = router;
