@@ -18,6 +18,6 @@ app.get("/notes", (req, res) => {
 });
 
 // spin up server
-app.listen(3001, () =>
+app.listen(PORT, () =>
     console.log(`Your app is running on http://localhost:${PORT}`)
 );
