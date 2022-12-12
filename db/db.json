@@ -1,27 +1,17 @@
 [
     {
         "id": "5ad54c0f-415d-46dd-8613-c423d582597d",
-        "title": "wergerb",
-        "text": "eerberb"
+        "title": "Sample Note #1",
+        "text": "Hello"
     },
     {
         "id": "bf11e81d-1dde-47d3-befd-bcfd11eb758a",
-        "title": "trhrtyh",
-        "text": "tntntn"
+        "title": "My Favorite Movies",
+        "text": "One of them would be Ocean's 11."
     },
     {
         "id": "08724b6f-1508-4963-bf1f-6c770d8b0db5",
-        "title": "tmyumy",
-        "text": "ui,u,u"
-    },
-    {
-        "id": "4a087040-a217-4312-acaa-5733032873c3",
-        "title": "hgrthr",
-        "text": "rtrthrn"
-    },
-    {
-        "id": "fc921067-6ea2-4bbc-bba6-ee783972e849",
-        "title": "dfvdfv",
-        "text": "df dfvdf"
+        "title": "Grocery Items List",
+        "text": "Eggs, Flour, Broccoli, Spinach"
     }
 ]
