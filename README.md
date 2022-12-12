@@ -7,6 +7,6 @@ This project is an attempt to create a program that will taking in a user's note
 ## Screenshots
 
 ![App Screenshot](https://github.com/noahfajarda/11-Note-Taker-App/blob/main/images/Screenshot1.png)
-![App Screenshot](https://github.com/noahfajarda/11-Note-Taker-App/blob/main/images/Screenshot1.png)
+![App Screenshot](https://github.com/noahfajarda/11-Note-Taker-App/blob/main/images/Screenshot2.png)
 
 ## Link to Deployed Application
