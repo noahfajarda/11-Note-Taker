@@ -14,3 +14,7 @@ This application was deployed using Heroku.
 ## Link to Deployed Application
 
 https://fajarda-note-taker-app.herokuapp.com/
+
+## Additional Heroku Link
+
+https://git.heroku.com/fajarda-note-taker-app.git
